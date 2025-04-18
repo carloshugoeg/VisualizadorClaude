@@ -747,4 +747,3 @@ class BinarySearchTree:
 
         self._get_nodes_by_level(node.left, level + 1, result)
         self._get_nodes_by_level(node.right, level + 1, result)
-
